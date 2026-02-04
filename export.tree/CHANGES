@@ -1,0 +1,2 @@
+1.0.0 2026-02-04
+  - 1.0.0 2026-02-04   - Initial OpenNeuro release.   - Converted raw EDF EEG recordings to BIDS (MNE-BIDS).   - Merged India and Tanzania cohorts into a single dataset and added site column to participants.tsv.   - Added dataset_description.json and participants.json for metadata completeness.   - Standardized missing participant values to n/a.
