@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A subset of large-scale EEG dataset (India + Tanzania)",
-  "description": "A large-scale EEG dataset comprising 7,933 participants from India and Tanzania, collected through field-based research programs with diverse populations ranging from hunter-gatherers to office workers. The dataset demonstrates that nonspecialists can reliably collect high-quality EEG data in non-laboratory settings when provided with appropriate training and structured quality control protocols. Alongside EEG recordings, the dataset includes demographic metadata (age, sex, income) and mental health assessments (Mental Health Quotient scores), enabling investigation of neurophysiological correlates across diverse environmental and socioeconomic contexts.",
-  "methods_description": "EEG data were collected by trained research teams across India and Tanzania over a 30-week period using portable EEG equipment. Data quality was maintained through daily automated analysis and feedback using PREP and FASTER methods. The dataset was converted to BIDS format using MNE-BIDS from EDF source files. Participants completed surveys and assessments alongside EEG recording.",
+  "description": "A large-scale EEG dataset comprising recordings from 7,933 participants across India and Tanzania, collected through field-based research programs with nonspecialist teams. The dataset includes electroencephalographic recordings alongside demographic metadata (age, sex, income) and mental health assessments (Mental Health Quotient scores). Data quality was validated using PREP and FASTER methods and demonstrated comparability to controlled laboratory benchmarks, establishing the feasibility of cost-effective, high-throughput EEG data collection in diverse, low- and middle-income country settings.",
+  "methods_description": "EEG data were collected by trained nonspecialist research teams in India and Tanzania over a 30-week period using portable equipment. Daily automated analysis and quality feedback protocols were implemented to maintain data quality standards. Data quality was assessed using PREP and FASTER methods on 5,831 records. The BIDS dataset was generated from EDF source files using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -53,6 +53,9 @@
       "term": "EEG"
     },
     {
+      "term": "electroencephalography"
+    },
+    {
       "term": "field studies"
     },
     {
@@ -65,7 +68,7 @@
       "term": "mental health assessment"
     },
     {
-      "term": "electroencephalography"
+      "term": "large-scale neuroimaging"
     }
   ],
   "related_identifiers": [
