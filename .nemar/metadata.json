@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007358",
-  "source": "openneuro",
-  "source_id": "ds007358",
+  "pipeline_stage": "validated",
   "title": "A subset of large-scale EEG dataset (India + Tanzania)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "John Mary Vianney": {},
     "Shailender Swaminathan": {},
@@ -46,21 +46,85 @@
     "Pushpkala Soni": {},
     "Tara C. Thiagarajan": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007358.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1523/ENEURO.0006-25.2025",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007358",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007358",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A large-scale EEG dataset comprising 7,933 participants from India and Tanzania, collected through field-based research programs with nonspecialist teams. The dataset demonstrates that structured training and automated quality control enable reliable EEG data collection in diverse, non-laboratory settings across populations ranging from hunter-gatherers to office workers. Participant metadata include age, sex, income, and Mental Health Quotient scores, with data quality comparable to controlled laboratory benchmarks.",
+  "methods_description": "EEG data were collected by trained nonspecialist research teams over a 30-week period in India and Tanzania. Data quality was assessed using PREP and FASTER methods on 5,831 records. Source EDF files were converted to BIDS format using MNE-BIDS. Participants completed surveys and assessments alongside EEG recording.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "field studies"
+    },
+    {
+      "term": "data quality"
+    },
+    {
+      "term": "low- and middle-income countries"
+    },
+    {
+      "term": "mental health"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "portable neuroimaging"
+    },
+    {
+      "term": "India"
+    },
+    {
+      "term": "Tanzania"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "e31f2c6e58545b03bc0385aa4ef5cc38697664b51a390b483f7bf627bc28fe9d"
 }
