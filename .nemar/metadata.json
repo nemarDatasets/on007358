@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A subset of large-scale EEG dataset (India + Tanzania)",
-  "description": "This dataset is a subset of a large-scale EEG data collection effort conducted in field settings across India and Tanzania, involving thousands of participants including diverse populations such as Hadzabe hunter-gatherers and office workers. EEG recordings are accompanied by metadata such as age, sex, income, and Mental Health Quotient (MHQ) score. The dataset demonstrates the feasibility of high-quality, low-cost EEG data collection by nonspecialists outside controlled laboratory environments, with applications for large-scale neurophysiological research in low- and middle-income countries.",
-  "methods_description": "EEG data were collected in field conditions in India and Tanzania by trained nonspecialist teams, with daily automated analysis and feedback on data quality using PREP and FASTER methods. The BIDS dataset was generated using MNE-BIDS from EDF source files.",
+  "description": "A subset of a large-scale field EEG collection from India and Tanzania, including participants ranging from Hadzabe hunter-gatherers to office workers. Recordings are accompanied by metadata such as age, Mental Health Quotient (MHQ) score, income and sex. The parent program used trained nonspecialist teams and daily automated data-quality feedback to collect EEG at high throughput and low cost, with quality comparable to lab benchmark datasets.",
+  "methods_description": "EEG was collected in the field by trained nonspecialist research teams alongside surveys and assessments. Data quality was evaluated with the PREP and FASTER pipelines. The BIDS dataset was generated from EDF source files using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -50,27 +50,22 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "field study"
-    },
-    {
-      "term": "mental health"
+      "term": "field data collection"
     },
     {
       "term": "data quality"
     },
     {
+      "term": "mental health quotient"
+    },
+    {
       "term": "low- and middle-income countries"
     },
     {
-      "term": "India"
-    },
-    {
-      "term": "Tanzania"
+      "term": "large-scale EEG"
     }
   ],
   "related_identifiers": [
@@ -111,7 +106,7 @@
     "eeg"
   ],
   "sizes": [
-    "17.2 GB (6001 files)"
+    "16.05 GB (6001 files)"
   ],
   "formats": [
     ".edf",
